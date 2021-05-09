@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 $theme-color-map: (
   'Default': #bb5649 #f8f5ec,
   'Mint Green': #16982B #f5f5f5,
@@ -13,7 +15,7 @@ $body-width: 800px;
 $mobile-navbar-height: 50px !default;
 $code-colour: #34495e;
 $code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
-$decoration-font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+$decoration-font-family: Alegreya, serif;
 
 @mixin min-screen($min-width: $body-width) {
    @media screen and (min-width: $min-width) {
