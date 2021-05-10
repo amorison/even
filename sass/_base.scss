@@ -1,6 +1,7 @@
 @use "variables";
 html {
   font-size: 16px;
+  font-family: variables.$decoration-font-family;
   box-sizing: border-box;
 }
 
